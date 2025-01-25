@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
   <title>Formulário De Validação</title>
 </head>
 <body>
   <main class="container">
     <div class="information">
       <h1 class="title">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
-      <h4 class="information">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</h4>
+      <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
     </div>
     <div class="form">
-        <form action="index.html" method="get">
-          <input type="text" name="NomeCompleto" placeholder="Nome Completo*" required>
-          <input type="email" name="Email" placeholder="Email*" required>
-          <input type="tel" name="Number" placeholder="Telefone*"  required>
-          <textarea  name="Mensagem" placeholder="Mensagem*"></textarea>
+        <form action="index.html" method="get" class="inputs">
+          <input type="text" name="NomeCompleto" placeholder="Nome Completo *" required>
+          <input type="email" name="Email" placeholder="Email *" required>
+          <input type="tel" name="Number" placeholder="Telefone *"  required>
+          <textarea  name="Mensagem" placeholder="Mensagem *" required></textarea>
           <legend>*campos obrigatórios</legend>
           <button type="submit">Enviar</button>
         </form>
