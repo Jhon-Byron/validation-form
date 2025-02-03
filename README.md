@@ -20,3 +20,6 @@ Este projeto é um formulário de validação simples que utiliza HTML, CSS e Ja
 - CSS
 - JavaScript
 
+## Links
+- [GitHub](https://jhon-byron.github.io/validation-form/)
+
