@@ -54,7 +54,7 @@ body{
   }
 
   textarea{
-    margin-top: 10px;
+    margin-top: 15px;
     height: 100px;
     border: 1px solid #000000;
     border-radius: 5px;
@@ -82,5 +82,3 @@ body{
 button:hover{
   transform: scale(1.05);
 }
-
-
